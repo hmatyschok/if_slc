@@ -30,9 +30,8 @@
  *
  *	@(#)if_sl.c	8.9 (Berkeley) 1/9/95
  */
- /*
+/*
  * Copyright (c) 2019 Henning Matyschok
- * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -85,7 +84,6 @@
  */
 
 #include <sys/cdefs.h>
-__KERNEL_RCSID(0, "$NetBSD: if_sl.c,v 1.128 2017/04/13 00:47:33 maya Exp $");
 
 #ifdef _KERNEL_OPT
 #include "opt_can.h"
